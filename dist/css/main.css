@@ -123,6 +123,53 @@
       .search-container .search-box .button .text {
         margin-left: 6px; }
 
+.search-results-container {
+  margin-top: 103px;
+  max-width: 1640px;
+  width: 100%; }
+  .search-results-container .search-results-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    .search-results-container .search-results-header .title {
+      font-size: 24px;
+      color: #102e85; }
+    .search-results-container .search-results-header .button {
+      width: 164px;
+      height: 46px;
+      border-radius: 5px 5px 5px 5px;
+      background: #f5b442;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer; }
+      .search-results-container .search-results-header .button i {
+        margin-right: 5px;
+        font-size: 10px; }
+      .search-results-container .search-results-header .button .text {
+        margin-left: 5px; }
+  .search-results-container .search-results-table {
+    margin-top: 25px; }
+    .search-results-container .search-results-table .flex-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center; }
+      .search-results-container .search-results-table .flex-row .flex-item {
+        flex-basis: 100%; }
+    .search-results-container .search-results-table .header {
+      background: #102e85;
+      border-radius: 10px 10px 0 0;
+      height: 81px; }
+      .search-results-container .search-results-table .header .text {
+        font-size: 20px;
+        color: white;
+        margin-top: 42px;
+        margin-left: 25px; }
+    .search-results-container .search-results-table .show-invoice-row {
+      background: #102e85;
+      height: 85px;
+      background: white; }
+
 * {
   box-sizing: border-box; }
 

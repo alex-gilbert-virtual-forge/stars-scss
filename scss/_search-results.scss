@@ -1,0 +1,69 @@
+.search-results-container {
+  margin-top: 103px;
+  max-width: 1640px;
+  width: 100%;
+
+  .search-results-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .title {
+      font-size: 24px;
+      color: $primary-color;
+    }
+
+    .button {
+      width: 164px;
+      height: 46px;
+      border-radius: 5px 5px 5px 5px;
+      background: $secondary-color;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+
+      i {
+        margin-right: 5px;
+        font-size: 10px;
+      }
+
+      .text {
+        margin-left: 5px;
+      }
+    }
+  }
+
+  .search-results-table {
+    margin-top: 25px;
+
+    .flex-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .flex-item {
+        flex-basis: 100%;
+      }
+    }
+
+    .header {
+      background: $primary-color;
+      border-radius: 10px 10px 0 0;
+      height: 81px;
+
+      .text {
+        font-size: 20px;
+        color: white;
+        margin-top: 42px;
+        margin-left: 25px;
+      }
+    }
+
+    .show-invoice-row {
+      background: $primary-color;
+      height: 85px;
+      background: white;
+    }
+  }
+}
