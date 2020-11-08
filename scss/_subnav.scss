@@ -1,0 +1,39 @@
+.subnav {
+  width: 100%;
+  height: 75px;
+  background-color: $secondary-color;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .subnav-container {
+    max-width: 1632px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .main-store {
+      font-size: 24px;
+      color: white;
+      width: 268px;
+    }
+
+    .invoices-tab {
+      margin-top: 19px;
+      width: 166px;
+      height: 56px;
+      border-radius: 10px 10px 0px 0px;
+      background: $grey-color;
+      font-size: 20px;
+      color: $grey-text;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .flex-helper {
+      width: 268px;
+    }
+  }
+}
